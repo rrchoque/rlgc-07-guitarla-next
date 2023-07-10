@@ -9,7 +9,7 @@ export default function Nosotros() {
       descripction="Venta de guitarras, blog de música"
     >
     <main className="contenedor">
-      <h2 className="heading">Nosotros</h2>
+      <h1 className="heading">Nosotros</h1>
 
       <div className={style.contenido}>
         <Image src="/img/nosotros.jpg" alt="imagen sobre nosotros" width={1000} height={800} priority={false} />
