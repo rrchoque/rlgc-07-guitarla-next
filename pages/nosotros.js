@@ -1,6 +1,6 @@
 import Layout from "@/components/layout";
 import Image from "next/image";
-import style from '@/styles/nosotros.module.css'
+import styles from '@/styles/nosotros.module.css'
 
 export default function Nosotros() {
   return (
@@ -11,7 +11,7 @@ export default function Nosotros() {
     <main className="contenedor">
       <h1 className="heading">Nosotros</h1>
 
-      <div className={style.contenido}>
+      <div className={styles.contenido}>
         <Image src="/img/nosotros.jpg" alt="imagen sobre nosotros" width={1000} height={800} priority={false} />
 
         <div>
