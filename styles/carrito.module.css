@@ -63,6 +63,7 @@
     position: absolute;
     top: 3rem;
     right: 1rem;
+    font-weight: 900;
 }
 .btn_eliminar:hover{
     cursor: pointer;
